@@ -4,14 +4,14 @@ document.getElementById("nissan").appendChild(versa);
 var sentra = document.createElement("p");
 sentra.innerHTML = "sentra";
 document.getElementById("nissan").appendChild(sentra);
-//document.getElementById("nissan").removeChild(sentra);
+//document.getElementById("nissan").removeChild(sentra); */
 var numero = document.createElement("p");
 numero.innerHTML = "soma";
-document.getElementsByClassName("total").appendChild(numero);
-//document.getElementsByClassName("total").removeChild(); */
+document.querySelector(".total").appendChild(numero);
+document.querySelector(".total").removeChild(numero);
 
 
-function createMenuItem(name) {
+/* function createMenuItem(name) {
     let li = document.createElement('li');
     li.textContent = name;
     return li;
@@ -21,4 +21,4 @@ const menu = document.querySelector('#menu');
 // add menu item
 menu.appendChild(createMenuItem('Home'));
 menu.appendChild(createMenuItem('Services'));
-menu.appendChild(createMenuItem('About Us'));
+menu.appendChild(createMenuItem('About Us')); */
